@@ -1,0 +1,19 @@
+# piping output to a file + expected/actual layout
+
+1. /three/Catch_Framework/std-out
+   - can capture standard output using the catch framework
+2. makefile for catch framework
+
+If solely using the makefile, it is difficult to come up with all the test cases due to different possible scenarios:
+ie: a function that does print statment
+ie: a function that returns a value
+ie: a main program that prints statment...
+Might be hard for things like the AVL tree project, but if it's just for quiz questions, wouldn't pose as much trouble.
+However, the greatest issue is that students need to have ubuntu instead of using cmd (as a lot of commands are linux based instead of windows based).
+
+Catch_Framework with makefile:
+doesn't pose as much problem as I can check if it's a windows sytem that generates
+the output file after compilation or linux system.
+simple to do, though I'm unsure how students are feeling about running the program/ importing the program into an IDE to compile and run
+I personally like it
+Catch_Framework is capable of testing whether cout has the correct output.

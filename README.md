@@ -1,6 +1,6 @@
 # Makefile
 
-Run '''make'''
+Run `make`
 
 Pros: They can just edit the input and expectedOutput files for testing, no need to write code for test cases.
 
@@ -19,7 +19,7 @@ Might be hard for things like the AVL tree project, but if it's just for quiz qu
 Import the files into IDE and run as usual.
 
 Supports both checking the output of a function and standard output.
-'''Catch_Framework\std-out''' checks the standard output
+`Catch_Framework\std-out` checks the standard output
 
 Pros: easy to visualize.
 
@@ -27,7 +27,7 @@ Cons: Importing could be difficult from time to time (ie: Clion sometimes want y
 
 ## With makefile
 
-Run '''make''' and everything is checked automatically.
+Run `make` and everything is checked automatically.
 
 Pros: Easy to run
 
